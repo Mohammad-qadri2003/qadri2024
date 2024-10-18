@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad al qadri (SID: 157254)</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #444;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 40px 0;
+            background-color: #fff;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        .about-content img {
+            width: 250px;
+            height: 200px;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+
+        .about-content p {
+            clear: both;
+        }
+
+        table {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #444;
+            color: white;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+
+        form button {
+            background-color: #444;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #666;
+        }
+
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Mohammad al qadri (SID: 157254)</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="image2/index.jpg" alt="Profile Image">
+                    <p>Welcome to my cybersecurity portfolio.</p>
+                    <p><strong>Name:Mohammad al qadri</strong> </p>
+                    <p><strong>Major:</strong> Cyber Security</p>
+                    <p><strong> Skills:</strong> Problem-solving,Network security,web security </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Programming Language</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">c#</a></td>
+                            <td>c# is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language.</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">php</a></td>
+                            <td>PHP is a popular server-side scripting language designed for web development, known for its ease of integration with HTML and databases, enabling dynamic website and application creation..</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="country" placeholder="Your Country" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; mohammad al qadri (SID: 157254). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript code
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+        });
+    </script>
+</body>
+</html>
